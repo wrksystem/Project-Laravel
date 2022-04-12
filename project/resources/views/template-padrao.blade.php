@@ -11,10 +11,8 @@
         <nav class="cabecalho-menu">
            <ul>
                 <a class="cabecalho-menu-item" href="{{route("home")}}">Home</a>
-                <a class="cabecalho-menu-item" href="{{route("animais")}}">Animais</a>
                 <a class="cabecalho-menu-item" href="{{route("galery")}}">Galeria</a>
                 <a class="cabecalho-menu-item" href="{{route("adocao")}}">Adoção</a>
-                <a class="cabecalho-menu-item" href="{{route("rotas")}}">Rotas</a>
                 <a class="cabecalho-menu-item" href="{{route("about")}}">Sobre nós</a>
                 <a class="cabecalho-menu-item" href="{{route("login")}}">LOGIN</a>
                 <a class="cabecalho-menu-item" href="{{route("cadastro")}}">Registro</a>

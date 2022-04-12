@@ -19,25 +19,17 @@ Route::get('/4', function () {
 })->name("about");
 
 Route::get('/5', function () {
-    return view('rotas');
-})->name("rotas");
-
-Route::get('/6', function () {
     return view('adocao');
 })->name("adocao");
 
-Route::get('/7', function () {
+Route::get('/6', function () {
     return view('galery');
 })->name("galery");
 
-Route::get('/8', function () {
-    return view('animais');
-})->name("animais");
-
-Route::get('/9', function () {
+Route::get('/7', function () {
     return view('participe');
 })->name("participe");
 
-Route::get('/10', function () {
+Route::get('/8', function () {
     return view('saibamais');
 })->name("saibamais");

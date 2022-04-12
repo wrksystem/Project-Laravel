@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="/src/view/css/cadastro.css">
+@extends("template-padrao")
+@section("css")
+    <link rel="stylesheet" href="{{asset("css/cadastro.css")}}">
 
     <title>Registro de Usuário</title>
 </head>
@@ -61,19 +56,6 @@
             <label for="password"><strong>Confirmação de Senha</strong></label>
             <input type="password" nome="password" id="password" required>
         </div><!--confirmação-senha-->
-
-        <div class="campo">
-            <label><strong>Estado Civil</Strong></label>
-            <label>
-                <input type="radio" name="casado" id="casado" checked>Casado
-            </label>
-            <label>
-                <input type="radio" name="solteiro" id="solteiro">Solteiro
-            </label>
-            <label>
-                <input type="radio" value="outro" id="outro">Outro
-            </label>
-        </div><!--estado civil-->
 
         <button class="botao" type="submit">Concluido</button>
 
