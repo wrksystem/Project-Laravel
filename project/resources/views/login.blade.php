@@ -1,10 +1,12 @@
 @extends("template-padrao")
 @section("css")
     <link rel="stylesheet" href="{{asset("css/login.css")}}">
-
     <title>Login</title>
-</head>
-<body>
+@endsection
+@section("conteudo")
+@endsection
+
+<section>
 
     <div>
 
@@ -32,5 +34,5 @@
 
     </form>
 
-</body>
-</html>
+</section>
+
