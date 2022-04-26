@@ -27,9 +27,5 @@ Route::get('/6', function () {
 })->name("galery");
 
 Route::get('/7', function () {
-    return view('participe');
-})->name("participe");
-
-Route::get('/8', function () {
-    return view('saibamais');
-})->name("saibamais");
+    return view('saibamais_participe');
+})->name("saibamais_participe");

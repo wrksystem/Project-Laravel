@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
 body {
     font-size: 100%;
     background: #ffebb8;
@@ -75,6 +76,10 @@ form {
     margin-left: 36%;
     margin-top: 2%;
     justify-content: center;
+}
+
+input, select, textarea, button {
+    border-radius: 5px;
 }
 
 .campo {

@@ -31,8 +31,7 @@
     <footer class="rodape">
         <nav class="rodape-menu">
         <a class="rodape-menu-item" href="{{route("about")}}">Sobré Nós</a>
-        <a class="rodape-menu-item" href="{{route("saibamais")}}">Saiba Mais</a>
-        <a class="rodape-menu-item" href="{{route("participe")}}">Participe</a>
+        <a class="rodape-menu-item" href="{{route("saibamais_participe")}}">Saiba Mais e Participe</a>
         </nav>
     </footer>
 

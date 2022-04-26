@@ -1,11 +1,9 @@
 @extends("template-padrao")
 @section("css")
-    <link rel="stylesheet" href="{{asset("css/cadastro.css")}}">
-
     <title>Registro de Usuário</title>
-</head>
-<body>
-
+    <link rel="stylesheet" href="{{asset("css/cadastro.css")}}">
+@endsection
+@section("conteudo")
     <div>
 
         <h1 id="title">Registro de Usuário</h1>
@@ -61,5 +59,4 @@
 
     </form>
 
-</body>
-</html>
+    @endsection
