@@ -29,3 +29,7 @@ Route::get('/6', function () {
 Route::get('/7', function () {
     return view('saibamais_participe');
 })->name("saibamais_participe");
+
+Route::get('teste',function(){
+    return view('template-mi');
+});
