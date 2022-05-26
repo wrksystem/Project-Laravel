@@ -243,81 +243,81 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <img src="{{asset('assets/img/portfolio/slide2.jpg')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Amigos</h4>
               <p>Amigos</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="{{asset('assets/img/portfolio/slide2.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Amigo"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <img src="{{asset('assets/img/portfolio/slide3.jpg')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Amigos</h4>
               <p>Amigos</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="{{asset('assets/img/portfolio/slide3.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Amigo"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <img src="{{asset('assets/img/portfolio/slide4.jpg')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Amigos</h4>
               <p>Amigos</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="{{asset('assets/img/portfolio/slide4.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Amigo"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <img src="{{asset('assets/img/portfolio/slide5.jpg')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Amigos</h4>
               <p>Amigos</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="{{asset('assets/img/portfolio/slide5.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Amigo"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <img src="{{asset('assets/img/portfolio/slide6.jpg')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Amigos</h4>
               <p>Amigos</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="{{asset('assets/img/portfolio/slide6.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Amigo"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            <img src="{{asset('assets/img/portfolio/slide7.jpg')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Amigos</h4>
               <p>Amigos</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="{{asset('assets/img/portfolio/slide7.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Amigo"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+            <img src="{{asset('assets/img/portfolio/slide8.jpg')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Amigos</h4>
               <p>Amigos</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="{{asset('assets/img/portfolio/slide8.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Amigo"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+            <img src="{{asset('assets/img/portfolio/slide9.jpg')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Amigos</h4>
               <p>Amigos</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="{{asset('assets/img/portfolio/slide9.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Amigo"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -327,7 +327,7 @@
       </div>
     </section><!-- End Galery Section -->
 
-    <!-- ======= Team Section ======= --> <!--ALTERAR PARA FORMULÁRIO DE LOGIN-->
+    <!-- ======= Sign In Section ======= --> <!--ALTERAR PARA FORMULÁRIO DE LOGIN-->
     <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -409,7 +409,7 @@
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section><!-- End Sign In Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg">
@@ -477,7 +477,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Contact Us</h2>
+          <h2>Nos Contate</h2>
         </div>
 
         <div class="row mt-1 d-flex justify-content-end" data-aos="fade-right" data-aos-delay="100">
@@ -486,19 +486,19 @@
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h4>Localização:</h4>
+                <p>Rua João Alves, Brasilândia de Minas, MG 38779-000</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>larquatro@patas.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
+                <h4>Telefone:</h4>
                 <p>+1 5589 55488 55s</p>
               </div>
 
@@ -526,9 +526,9 @@
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Sua mensagem foi enviada com sucesso. Muito Obrigado!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Envia Mensagem</button></div>
             </form>
 
           </div>
@@ -548,7 +548,7 @@
         <div class="row">
           <div class="col-lg-6">
             <h4>Nossa Newsletter</h4>
-            <p>Para estar sempre por dentro das nossa novidades se inscreva</p>
+            <p>Para estar sempre por dentro das nossas novidades se inscreva</p>
           </div>
           <div class="col-lg-6">
             <form action="" method="post">
@@ -575,7 +575,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Outros Serviços</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
@@ -586,20 +586,20 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
+            <h4>Nos Contate</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Rua João Alves <br>
+              Brsilândia de Minas, MG 38779-000<br>
+              Brasil <br><br>
+              <strong>Telefone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> larquatro@patas.com<br>
             </p>
 
           </div>
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>About Anyar</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <h3>Sobre o Lar Quatro Patas</h3>
+            <p>Fique em contato conosco através das redes sociais</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
