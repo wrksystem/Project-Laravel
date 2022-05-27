@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(6, 101, 183, 0.9);
+  background: rgba(0, 255, 171, 0.9);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -472,7 +472,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About Us
+# Sobre Nós
 --------------------------------------------------------------*/
 .about {
   padding: 140px 0;
@@ -545,39 +545,10 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Adoção
 --------------------------------------------------------------*/
-.services .icon-box {
-  margin-bottom: 20px;
-  padding: 50px 40px;
-  border-radius: 6px;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-.services .icon-box i {
-  float: left;
-  color: #f6b024;
-  font-size: 40px;
-  line-height: 0;
-}
-.services .icon-box h4 {
-  margin-left: 70px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-.services .icon-box h4 a {
-  color: #05579e;
-  transition: 0.3s;
-}
-.services .icon-box h4 a:hover {
-  color: #0880e8;
-}
-.services .icon-box p {
-  margin-left: 70px;
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
+.services {
+    background-color: #E3FCBF;
 }
 
 /*--------------------------------------------------------------
@@ -628,8 +599,12 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfoio
+# Galeria
 --------------------------------------------------------------*/
+
+.portfoio{
+    background-color: #E3FCBF;
+}
 .portfoio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
@@ -709,7 +684,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# Galeria Details
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
@@ -763,88 +738,25 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Team
+# Sign In
 --------------------------------------------------------------*/
-.team .member {
-  position: relative;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  border-radius: 10px;
-  background: #fff;
-}
-.team .member .pic {
-  overflow: hidden;
-  width: 180px;
-  border-radius: 50%;
-}
-.team .member .pic img {
-  transition: ease-in-out 0.3s;
-}
-.team .member:hover img {
-  transform: scale(1.1);
-}
-.team .member .member-info {
-  padding-left: 30px;
-}
-.team .member h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 20px;
-  color: #05579e;
-}
-.team .member span {
-  display: block;
-  font-size: 15px;
-  padding-bottom: 10px;
-  position: relative;
-  font-weight: 500;
-}
-.team .member span::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 1px;
-  background: #bfe0fd;
-  bottom: 0;
-  left: 0;
-}
-.team .member p {
-  margin: 10px 0 0 0;
-  font-size: 14px;
-}
-.team .member .social {
-  margin-top: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.team .member .social a {
-  transition: ease-in-out 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50px;
-  width: 32px;
-  height: 32px;
-  background: #ecf6fe;
-  color: #0665b7;
-}
-.team .member .social a i {
-  font-size: 16px;
-  margin: 0 2px;
-}
-.team .member .social a:hover {
-  background: #0880e8;
-  color: #fff;
-}
-.team .member .social a + a {
-  margin-left: 8px;
+.team {
+    background-color: #E3FCBF;
 }
 
 /*--------------------------------------------------------------
-# Frequently Asked Questions
+# Sign Up
 --------------------------------------------------------------*/
+.pricing {
+    background-color: #E3FCBF;
+}
+
+/*--------------------------------------------------------------
+# Perguntas Frequentes
+--------------------------------------------------------------*/
+.faq {
+    background-color: #E3FCBF;
+}
 .faq .faq-list {
   padding: 0 100px;
 }

@@ -13,5 +13,7 @@ para que pessoas que tenham as condições necessárias possam os adotar e assim
     Banco de dados relacional MySql.
     Arquitetura MVC, onde por padrão ja é aplicada no Láravel.
 
+    A aplicação Web conta com responsividade adaptativa tanto para aparelhos celular quanto Tablet.
+
 # PREVIZUALIZAÇÃO-DA-APLICAÇÃO.
     
