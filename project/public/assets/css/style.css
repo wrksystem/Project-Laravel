@@ -743,6 +743,26 @@ section {
 .team {
     background-color: #E3FCBF;
 }
+.team .container {
+    padding: 0 100px;
+}
+.team .row {
+    padding: 0 120px;
+}
+.team .container .btn-container {
+    display: flex;
+    justify-content: center;
+}
+.btn-container .btn {
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #00FFAB;
+    text-decoration: none;
+    border-radius: 10%;
+    border-color: #18d26e;
+    width: 15vh;
+}
+
 
 /*--------------------------------------------------------------
 # Sign Up
@@ -750,6 +770,26 @@ section {
 .pricing {
     background-color: #E3FCBF;
 }
+.pricing .container {
+    padding: 0 100px;
+}
+.pricing .row {
+    padding: 0 120px;
+}
+.princing .btn {
+    display: flex;
+    justify-content: center;
+}
+.btn .btn-primary {
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #00FFAB;
+    text-decoration: none;
+    border-radius: 10%;
+    border-color: #18d26e;
+    width: 15vh;
+}
+
 
 /*--------------------------------------------------------------
 # Perguntas Frequentes

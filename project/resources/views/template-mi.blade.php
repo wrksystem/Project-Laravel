@@ -297,7 +297,21 @@
 
         <div class="row">
             <div class="container">
-
+                <form>
+                    @csrf
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">Nunca compartilhe seus e-mails com ninguém</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Senha</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="btn-container">
+                        <button type="submit" class="btn btn-primary">Sign In</button>
+                    </div>
+                  </form>
             </div>
           </div>
 
@@ -318,7 +332,43 @@
           </div>
 
           <div class="row">
-
+              <div class="container">
+                <form class="row g-3" method="POST" action="{{route('registro')}}" >
+                    @csrf
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4" name= 'inputemail'>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="confirmEmail4" class="form-label">Confirmar email</label>
+                        <input type="email" class="form-control" id="confirmEmail4" name= 'confirmemail'>
+                      </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Senha</label>
+                      <input type="password" class="form-control" id="inputPassword4" name= 'inputsenha'>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="confirPassword4" class="form-label">Confirmar senha</label>
+                        <input type="password" class="form-control" id="confirmPassword4" name= 'confirmsenha'>
+                      </div>
+                    <div class="col-12">
+                      <label for="inputName" class="form-label">Nome</label>
+                      <input type="text" class="form-control" id="inputName" placeholder="Nome" name= 'nome'>
+                    </div>
+                    <div class="col-12">
+                      <label for="inputLastName" class="form-label">Sobrenome</label>
+                      <input type="text" class="form-control" id="inputLastName" placeholder="Sobrenome" name='sobrenome'>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCpf" class="form-label">CPF</label>
+                      <input type="text" class="form-control" id="inputCpf" name='cpf'>
+                    </div>
+                    </div>
+                    <div class="btn">
+                      <button type="submit" class="btn-primary">Sing Up</button>
+                    </div>
+                  </form>
+              </div>
           </div>
 
         </div>
