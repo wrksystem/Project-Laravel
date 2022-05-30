@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Hash;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
@@ -28,17 +29,14 @@ class UserController extends Controller
         }
 
         $user = User::Create(
-            ['email'=>$email, 'senha'=>Hash::make($senha), 'nome'=>$nome, 'sobrenome'=>$sobrenome, 'cpf'=>$cpf]
+            ['email'=>$confirmEmail, 'password'=>Hash::make($senha), 'name'=>$nome, 'last_name'=>$sobrenome, 'cpf'=>$cpf]
         );
 
         if ($user->save()){
+            Auth::login($user->id);
             return redirect()->route('Home');
         }else {
             return back()->with('error', 'erro de conexão');
         }
-
-
-        return view('login');
-
     }
 }

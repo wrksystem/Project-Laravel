@@ -19,14 +19,14 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
-        'sobrenome',
+        'last_name',
         'email',
         'password',
         'cpf',
     ];
 
-    protected $primaryKey = 'id_usuario';
-    protected $table = 'usuario';
+    protected $primaryKey = 'id';
+    protected $table = 'users';
 
 
     /**
