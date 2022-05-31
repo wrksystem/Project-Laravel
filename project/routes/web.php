@@ -14,3 +14,7 @@ Route::get('home', function(){
     return view('template_usuario');
 })->name("tela-de-usuario");
 
+Route::get('profile', function(){
+    return view('user_profile');
+})->name("perfil-usuario");
+
