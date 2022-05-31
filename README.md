@@ -15,5 +15,10 @@ para que pessoas que tenham as condições necessárias possam os adotar e assim
 
     A aplicação Web conta com responsividade adaptativa tanto para aparelhos celular quanto Tablet.
 
+### PAINEL-DE-USUARIO
+    Para criar o painel de usuário foi usado o template CREATIVE TIM na versão Free.
+    https://www.creative-tim.com/product/material-dashboard-bs4#
+    A template foi alterado de acordo com as necessidades da página web.
+
 # PREVIZUALIZAÇÃO-DA-APLICAÇÃO.
     

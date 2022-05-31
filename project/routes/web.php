@@ -10,3 +10,7 @@ Route::get('/', function(){
 Route::post('registro', [UserController::class, 'registUser']
 )->name("registro");
 
+Route::get('home', function(){
+    return view('template_usuario');
+})->name("tela-de-usuario");
+
