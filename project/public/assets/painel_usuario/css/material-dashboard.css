@@ -304,7 +304,7 @@ pre code {
 
 code {
   font-size: 0.875em;
-  color: #d63384;
+  color: #00FFAB;
   word-wrap: break-word;
 }
 
@@ -3624,9 +3624,9 @@ fieldset:disabled .btn {
 
 .btn-primary:disabled,
 .btn-primary.disabled {
-  color: #000;
-  background-color: #e91e63;
-  border-color: #e91e63;
+  color: #B8F1B0;
+  background-color: #00FFAB;
+  border-color: #14C38E;
 }
 
 .btn-secondary {
@@ -4898,7 +4898,7 @@ fieldset:disabled .btn {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #e91e63;
+  color: #00FFAB;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
@@ -4910,7 +4910,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #e91e63;
+  color: #00FFAB;
 }
 
 .nav-link.disabled {

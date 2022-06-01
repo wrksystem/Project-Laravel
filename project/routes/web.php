@@ -18,3 +18,7 @@ Route::get('profile', function(){
     return view('user_profile');
 })->name("perfil-usuario");
 
+Route::get('user_area', function(){
+    return view('user_area');
+})->name("area_usuario");
+
