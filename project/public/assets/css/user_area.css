@@ -117,3 +117,36 @@ body.active .wrapper .section{
 margin-left: 0;
 width: 100%;
 }
+
+.content {
+    margin: 0 auto;
+    align-items: center;
+}
+
+.content-dashboard {
+    margin: 0 auto;
+}
+
+.content .pets .pets-conteudo .profile img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    margin: 0 auto;
+}
+
+.content .pets .pets-conteudo .profile h3 {
+    color: black;
+    margin: 0 auto;
+}
+
+.content .pets .pets-conteudo .dataPets {
+    border-radius: 15%;
+    background-color: #FFF;
+    display: flex;
+}
+
+.content .pets .pets-conteudo .dataPets .name {
+    align-items: center;
+    justify-content: space-between;
+}

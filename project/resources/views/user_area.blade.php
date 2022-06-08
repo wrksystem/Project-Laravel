@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">-->
+
     <script src="https://kit.fontawesome.com/89c7a00266.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{{asset('assets/css/user_area.css')}}">
     <meta charset="UTF-8">
@@ -25,61 +25,206 @@
         </div>
         <div class="sidebar">
             <div class="profile">
-                <img src="" alt="profile_picture">
-                <h3>Usuário</h3>
+                <img src="{{asset('assets/painel_usuario/img/user/1649164132323.jpg')}}" alt="profile_picture">
+                <h3>Werik Rodrigues de Andrade</h3>
             </div>
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="#" id="dashboard" onclick="abredash()">
                         <span class="icon"><i class="fas fa-desktop"></i></span>
                         <span class="item">My Dashboard</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <span class="icon"><i class="fa-solid fa-dog"></i></span>
+                    <a href="#" id="perfil" onclick="abreprof()">
+                        <span class="icon"><i class="fas fa-address-card"></i></span>
+                        <span class="item">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="adotar" onclick="abreadoc()">
+                        <span class="icon"><i class="fas fa-cat"></i></span>
+                        <span class="item">Adoção</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="pet" onclick="abrepet()">
+                        <span class="icon"><i class="fas fa-paw"></i></span>
                         <span class="item">Pets</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
-                        <span class="item">Perfomance</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-database"></i></span>
-                        <span class="item">Development</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-chart-line"></i></span>
-                        <span class="item">Reports</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-user-shield"></i></span>
-                        <span class="item">Admin</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-cog"></i></span>
-                        <span class="item">Settings</span>
+                        <span class="icon"><i class="fas fa-sign-out-alt"></i></span>
+                        <span class="item">Sair</span>
                     </a>
                 </li>
             </ul>
         </div>
 
+
+
+    </div>
+
+    <div class="content">
+        <section class="dashboard" id="dashboard-content">
+            <p>Informações sobre animais que estão adotados e dados pessoais</p>
+            <div class="data">
+
+            </div>
+        </section>
+
+        <section class="profile" id="profile-content">
+            <p>Dados pessoais para permitir adoção</p>
+            <div class="prof">
+                <form action="" class="dataProf">
+                    <div class="name">
+                        <label for="">Email</label>
+                        <input type="text">
+                    </div>
+                    <div class="name">
+                        <label for="">Nome Completo</label>
+                        <input type="text">
+                    </div>
+                    <div class="name">
+                        <label for="">CPF</label>
+                        <input type="text">
+                    </div>
+                    <div class="name">
+                        <label for="">Rua/Avenida</label>
+                        <input type="text">
+                    </div>
+                    <div class="name">
+                        <label for="">Numero</label>
+                        <input type="text">
+                    </div>
+                    <div class="name">
+                        <label for="">Bairro</label>
+                        <input type="text">
+                    </div>
+                    <div class="name">
+                        <label for="">Cidade</label>
+                        <input type="text">
+                    </div>
+                    <div class="name">
+                        <label for="">CEP</label>
+                        <input type="text">
+                    </div>
+                    <div id="select">
+                        <label for=""><strong>Selecione o Estado</strong></label>
+                        <select name="" id="">
+                            <option value="">AC</option>
+                            <option value="">AL</option>
+                            <option value="">AP</option>
+                            <option value="">AM</option>
+                            <option value="">BA</option>
+                            <option value="">CE</option>
+                            <option value="">DF</option>
+                            <option value="">ES</option>
+                            <option value="">GO</option>
+                            <option value="">MA</option>
+                            <option value="">MT</option>
+                            <option value="">MS</option>
+                            <option value="">MG</option>
+                            <option value="">PA</option>
+                            <option value="">PB</option>
+                            <option value="">PR</option>
+                            <option value="">PE</option>
+                            <option value="">PI</option>
+                            <option value="">RJ</option>
+                            <option value="">RN</option>
+                            <option value="">RS</option>
+                            <option value="">RO</option>
+                            <option value="">RR</option>
+                            <option value="">SC</option>
+                            <option value="">SP</option>
+                            <option value="">SE</option>
+                            <option value="">TO</option>
+                        </select>
+                    </div>
+                    <div class="name">
+                        <label for="">Renda</label>
+                        <input type="text">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="adocao" id="adocao-content">
+            <p>Requerimento de adoção e ja adotados</p>
+        </section>
+
+        <section class="pets" id="pets-content">
+            <p>Pets e suas informações</p>
+            <div class="pets-conteudo">
+                <div class="profile">
+                    <img src="{{asset('assets/img/portfolio/slide1.jpg')}}" alt="pet_picture">
+                    <h3>Nome do Pet</h3>
+                </div>
+                <div class="dataPets">
+                    <div class="name">
+                        <label for="">Nome</label>
+                        <input type="text">
+                    </div>
+                    <div class="dataPetsInfo">
+                        <label for="">Peso</label>
+                        <input type="text">
+                        <label for="">Altura</label>
+                        <input type="text">
+                        <label for="">Genero</label>
+                        <input type="text">
+                        <label for="">Cor</label>
+                        <input type="text">
+                        <label for="">Idade</label>
+                        <input type="text">
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </div>
   <script>
        var hamburger = document.querySelector(".hamburger");
 	hamburger.addEventListener("click", function(){
 		document.querySelector("body").classList.toggle("active");
 	})
+  </script>
+
+  <script>
+    document.getElementById("dashboard-content").style.visibility = "hidden";
+    document.getElementById("profile-content").style.visibility = "hidden";
+    document.getElementById("adocao-content").style.visibility = "hidden";
+    document.getElementById("pets-content").style.visibility = "hidden";
+
+      function abredash (){
+        document.getElementById("dashboard-content").style.visibility = "visible";
+        document.getElementById("profile-content").style.visibility = "hidden";
+        document.getElementById("adocao-content").style.visibility = "hidden";
+        document.getElementById("pets-content").style.visibility = "hidden";
+      }
+
+      function abreprof (){
+        document.getElementById("profile-content").style.visibility = "visible";
+        document.getElementById("dashboard-content").style.visibility = "hidden";
+        document.getElementById("adocao-content").style.visibility = "hidden";
+        document.getElementById("pets-content").style.visibility = "hidden";
+      }
+
+      function abreadoc (){
+        document.getElementById("adocao-content").style.visibility = "visible";
+        document.getElementById("dashboard-content").style.visibility = "hidden";
+        document.getElementById("profile-content").style.visibility = "hidden";
+        document.getElementById("pets-content").style.visibility = "hidden";
+      }
+
+      function abrepet (){
+        document.getElementById("pets-content").style.visibility = "visible";
+        document.getElementById("dashboard-content").style.visibility = "hidden";
+        document.getElementById("profile-content").style.visibility = "hidden";
+        document.getElementById("adocao-content").style.visibility = "hidden";
+      }
+
+
   </script>
 </body>
 </html>
