@@ -34,9 +34,19 @@ class UserController extends Controller
 
         if ($user->save()){
             Auth::login($user->id);
-            return redirect()->route('Home');
+            return redirect()->route('user_area');
         }else {
             return back()->with('error', 'erro de conexão');
         }
     }
+
+    public function loginUser(){
+
+        //$user = Auth::user();
+        $user = User::find(9);
+        $data = ['user'=> $user];
+        //return $data;
+        return View('user_area', $data);
+    }
+
 }

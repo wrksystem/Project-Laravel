@@ -26,7 +26,7 @@
         <div class="sidebar">
             <div class="profile">
                 <img src="{{asset('assets/painel_usuario/img/user/1649164132323.jpg')}}" alt="profile_picture">
-                <h3>Werik Rodrigues de Andrade</h3>
+                <h3>{{$user->name.' '.$user->last_name}}</h3>
             </div>
             <ul>
                 <li>
@@ -67,6 +67,7 @@
     </div>
 
     <div class="content">
+
         <section class="dashboard" id="dashboard-content">
             <p>Informações sobre animais que estão adotados e dados pessoais</p>
             <div class="data">
@@ -80,19 +81,19 @@
                 <form action="" class="dataProf">
                     <div class="name">
                         <label for="">Email</label>
-                        <input type="text">
+                        <input type="text" value="{{$user->email}}">
                     </div>
                     <div class="name">
                         <label for="">Nome Completo</label>
-                        <input type="text">
+                        <input type="text" value="{{$user->name.' '.$user->last_name}}">
                     </div>
                     <div class="name">
                         <label for="">CPF</label>
-                        <input type="text">
+                        <input type="text" value="{{$user->cpf}}">
                     </div>
                     <div class="name">
                         <label for="">Rua/Avenida</label>
-                        <input type="text">
+                        <input type="text" name="inputaddress">
                     </div>
                     <div class="name">
                         <label for="">Numero</label>
@@ -144,7 +145,11 @@
                     </div>
                     <div class="name">
                         <label for="">Renda</label>
-                        <input type="text">
+                        <input type="text" name="inputvalue">
+                    </div>
+
+                    <div class="confirm">
+                        <button type="submit">SALVAR</button>
                     </div>
                 </form>
             </div>
@@ -152,6 +157,17 @@
 
         <section class="adocao" id="adocao-content">
             <p>Requerimento de adoção e ja adotados</p>
+            <div>
+                <section class="allpets">
+                    <p>Imagens dos pets cadastrados</p>
+
+                </section>
+                <section class="adoption-application">
+                    <form action="">
+
+                    </form>
+                </section>
+            </div>
         </section>
 
         <section class="pets" id="pets-content">
@@ -191,7 +207,6 @@
   </script>
 
   <script>
-    document.getElementById("dashboard-content").style.visibility = "hidden";
     document.getElementById("profile-content").style.visibility = "hidden";
     document.getElementById("adocao-content").style.visibility = "hidden";
     document.getElementById("pets-content").style.visibility = "hidden";

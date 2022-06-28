@@ -119,34 +119,28 @@ width: 100%;
 }
 
 .content {
-    margin: 0 auto;
-    align-items: center;
+    margin-left: 225px;
+    margin-top: 25px;
+    padding: 10px 15px;
+    position: relative;
 }
 
-.content-dashboard {
-    margin: 0 auto;
+body.active .content {
+    margin-left: 25px;
 }
+
+section {
+    position: absolute;
+}
+
+
 
 .content .pets .pets-conteudo .profile img {
-    display: block;
+    display: flex;
     width: 150px;
     height: 150px;
     border-radius: 10%;
     margin: 0 auto;
 }
 
-.content .pets .pets-conteudo .profile h3 {
-    color: black;
-    margin: 0 auto;
-}
 
-.content .pets .pets-conteudo .dataPets {
-    border-radius: 15%;
-    background-color: #FFF;
-    display: flex;
-}
-
-.content .pets .pets-conteudo .dataPets .name {
-    align-items: center;
-    justify-content: space-between;
-}

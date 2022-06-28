@@ -1,7 +1,10 @@
 <?php
 
+use App\Http\Controllers\AdocaoController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
+
+Auth::routes();
 
 Route::get('/', function(){
     return view('template-mi');
@@ -10,15 +13,10 @@ Route::get('/', function(){
 Route::post('registro', [UserController::class, 'registUser']
 )->name("registro");
 
-Route::get('home', function(){
-    return view('template_usuario');
-})->name("tela-de-usuario");
+Route::get('home', [UserController::class, 'loginUser']
+)->name("home");
 
-Route::get('profile', function(){
-    return view('user_profile');
-})->name("perfil-usuario");
+Route::get('registData', [AdocaoController::class, 'registData']
+)->name("registData");
 
-Route::get('user_area', function(){
-    return view('user_area');
-})->name("area_usuario");
-
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');//
