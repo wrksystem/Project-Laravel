@@ -22,6 +22,13 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->string('cpf');
             $table->rememberToken();
+            $table->string('street')->default("");
+            $table->Integer('houseNumber')->default(0);
+            $table->string('district')->default("");
+            $table->string('city')->default("");
+            $table->string('zipcode')->default("");
+            $table->string('state')->default("");
+            $table->string('income_value')->default("");
             $table->timestamps();
         });
     }

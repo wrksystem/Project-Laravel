@@ -13,6 +13,8 @@ Route::get('/', function(){
 Route::post('registro', [UserController::class, 'registUser']
 )->name("registro");
 
+Route::post('user/update/{userId}', [UserController::class, 'update'])->name("user.update");
+
 Route::get('registData', [AdocaoController::class, 'registData']
 )->name("registData");
 
