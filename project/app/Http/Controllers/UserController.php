@@ -44,4 +44,17 @@ class UserController extends Controller
         }
     }
 
+    public  function update(Request $request,$userId)
+    {
+        $user  = User::find($userId);
+
+        $user->update($_POST);
+
+        if ($user->save()){
+            return redirect()->route('home');
+        }else {
+            return back()->with('error', 'erro de conexão');
+        }
+    }
+
 }

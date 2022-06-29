@@ -17,13 +17,7 @@ class CreateAdocaosTable extends Migration
     {
         Schema::create('adocaos', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('address');
-            $table->string('proof_of_address');
-            $table->string('income_value');
-            $table->string('proof_of_value');
             $table->timestamps();
-            $table->bigInteger('fkadocao');
             $table->foreignIdFor(User::class, 'fkuser')->constrained('users');
             $table->foreignIdFor(Pets::class,'fkpets')->constrained('pets');
         });

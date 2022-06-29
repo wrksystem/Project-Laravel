@@ -84,74 +84,75 @@
         <section class="profile" id="profile-content">
             <p>Dados pessoais para permitir adoção</p>
             <div class="prof">
-                <form action="" class="dataProf">
+                <form action="{{ route('user.update',$user->id)  }}" method="post" class="dataProf">
+                    @csrf
                     <div class="name">
                         <label for="">Email</label>
-                        <input type="text" value="{{$user->email}}">
+                        <input type="email" value="{{$user->email}}" disabled>
                     </div>
                     <div class="name">
                         <label for="">Nome Completo</label>
-                        <input type="text" value="{{$user->name.' '.$user->last_name}}">
+                        <input type="text" value="{{$user->name.' '.$user->last_name}}" disabled>
                     </div>
                     <div class="name">
                         <label for="">CPF</label>
-                        <input type="text" value="{{$user->cpf}}">
+                        <input type="text" value="{{$user->cpf}}" disabled>
                     </div>
                     <div class="name">
                         <label for="">Rua/Avenida</label>
-                        <input type="text" name="inputaddress">
+                        <input type="text" name="street" value="{{$user->street}}">
                     </div>
                     <div class="name">
                         <label for="">Numero</label>
-                        <input type="text">
+                        <input type="number " name="houseNumber" value="{{$user->houseNumber}}" >
                     </div>
                     <div class="name">
                         <label for="">Bairro</label>
-                        <input type="text">
+                        <input type="text" name="district" value="{{$user->district}}">
                     </div>
                     <div class="name">
                         <label for="">Cidade</label>
-                        <input type="text">
+                        <input type="text" name="city" value="{{$user->city}}">
                     </div>
                     <div class="name">
                         <label for="">CEP</label>
-                        <input type="text">
+                        <input type="text" name="zipcode" value="{{$user->zipcode}}">
                     </div>
                     <div id="select">
                         <label for=""><strong>Selecione o Estado</strong></label>
-                        <select name="" id="">
-                            <option value="">AC</option>
-                            <option value="">AL</option>
-                            <option value="">AP</option>
-                            <option value="">AM</option>
-                            <option value="">BA</option>
-                            <option value="">CE</option>
-                            <option value="">DF</option>
-                            <option value="">ES</option>
-                            <option value="">GO</option>
-                            <option value="">MA</option>
-                            <option value="">MT</option>
-                            <option value="">MS</option>
-                            <option value="">MG</option>
-                            <option value="">PA</option>
-                            <option value="">PB</option>
-                            <option value="">PR</option>
-                            <option value="">PE</option>
-                            <option value="">PI</option>
-                            <option value="">RJ</option>
-                            <option value="">RN</option>
-                            <option value="">RS</option>
-                            <option value="">RO</option>
-                            <option value="">RR</option>
-                            <option value="">SC</option>
-                            <option value="">SP</option>
-                            <option value="">SE</option>
-                            <option value="">TO</option>
+                        <select name="state" id="">
+                            <option value="AC">AC</option>
+                            <option value="AL">AL</option>
+                            <option value="AP">AP</option>
+                            <option value="AM">AM</option>
+                            <option value="BA">BA</option>
+                            <option value="CE">CE</option>
+                            <option value="DF">DF</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MT">MT</option>
+                            <option value="MS">MS</option>
+                            <option value="MG">MG</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PR">PR</option>
+                            <option value="PE">PE</option>
+                            <option value="PI">PI</option>
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>
+                            <option value="RS">RS</option>
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="SC">SC</option>
+                            <option value="SP">SP</option>
+                            <option value="SE">SE</option>
+                            <option value="TO">TO</option>
                         </select>
                     </div>
                     <div class="name">
                         <label for="">Renda</label>
-                        <input type="text" name="inputvalue">
+                        <input type="text" name="income_value" value="{{ $user->income_value }}">
                     </div>
 
                     <div class="confirm">

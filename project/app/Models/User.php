@@ -23,7 +23,15 @@ class User extends Authenticatable
         'email',
         'password',
         'cpf',
+        'street',
+        'houseNumber',
+        'district',
+        'city',
+        'zipcode',
+        'state',
+        'income_value',
     ];
+
 
     protected $primaryKey = 'id';
     protected $table = 'users';
