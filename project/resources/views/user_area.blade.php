@@ -54,10 +54,16 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{route('logout')}}"
+                    onclick="event.preventDefault();
+                                  document.getElementById('logout-form').submit();">
                         <span class="icon"><i class="fas fa-sign-out-alt"></i></span>
                         <span class="item">Sair</span>
                     </a>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
+                    </form>
                 </li>
             </ul>
         </div>
