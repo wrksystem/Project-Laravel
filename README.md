@@ -20,12 +20,13 @@
     
     Arquitetura MVC, onde por padrão ja é aplicada no Laravel.
 
-    A aplicação Web conta com responsividade adaptativa tanto para aparelhos celular quanto Tablet, dentro da parte feito com 
-    Bootstrap.
+    A aplicação Web conta com responsividade adaptativa tanto para aparelhos celular quanto Tablet, dentro
+    da parte feito com Bootstrap.
     
-    A decisão de utilização do Laravel se deu pela facilidade que o Framework traz para quem tem pouca experiência de programação
-    permitindo que apenas configurando as rotas, controllers e os models, seja possível fazer uma aplicação completa sem muito
-    entendimento da linguagem em si, pesquisando dentro da própria documentação do Framework.
+    A decisão de utilização do Laravel se deu pela facilidade que o Framework traz para quem tem pouca 
+    experiência de programação permitindo que apenas configurando as rotas, controllers e os models, 
+    seja possível fazer uma aplicação completa sem muito entendimento da linguagem em si, pesquisando
+    dentro da própria documentação do Framework.
     
 
 # PAINEL-DE-USUARIO
@@ -41,8 +42,8 @@
     
 ![image](https://user-images.githubusercontent.com/51803873/176567267-2635e097-2488-4b98-b896-aab90b63489b.png)
    
-    Clicar nos links de acesso que estão presentes no Header da página também irá jogá-lo diretamente no campo da página que 
-    deseja acessar.
+    Clicar nos links de acesso que estão presentes no Header da página também irá jogá-lo diretamente no 
+    campo da página que deseja acessar.
     
 ![image](https://user-images.githubusercontent.com/51803873/176567428-ec41bfbe-9d84-466b-a7bf-d58ace9f286e.png)
    
@@ -50,13 +51,14 @@
     
 ![image](https://user-images.githubusercontent.com/51803873/176567613-b48a76c3-ed2d-46c3-ba69-49449810b282.png)
 
-    A intenção de ter uma galeria era divulgar os animais em adoção, permitindo que eles fossem vistos mesmo que o usuário não 
-    estivesse cadastrado na plataforma.
+    A intenção de ter uma galeria era divulgar os animais em adoção, permitindo que eles fossem vistos mesmo
+    que o usuário não estivesse cadastrado na plataforma.
  
 # BACK END
 
-    Todas as informações são levadas para um banco MySql, então para rodar a aplicação é necessário o MySql Workbench instalado 
-    localmente na máquina, e caso ainda não esteja instalado, siga o link e o instale para prosseguir.    
+    Todas as informações são levadas para um banco MySql, então para rodar a aplicação é necessário o MySql 
+    Workbench instalado localmente na máquina, e caso ainda não esteja instalado, siga o link e o instale 
+    para prosseguir.    
  https://dev.mysql.com/downloads/workbench/
     
     Também será necessário instalar o Xampp.    
