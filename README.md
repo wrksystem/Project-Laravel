@@ -1,11 +1,11 @@
-# PROJETO-FACULDADE - LAR QUATRO PATAS
+# PROJETO FACULDADE - LAR QUATRO PATAS
 
     Projeto do 1º Período
     Análise e Desenvolvimento de Sistemas Tecnólogo
     
     WERIK RODRIGUES DE ANDRADE    
 
-# OBJETIVO-DO-PROJETO
+# OBJETIVO DO PROJETO
     Fazer um site web/plataforma para que seja possível localizar animais em situação de abandono,
     para que pessoas que tenham as condições necessárias possam os adotar e assim ajudar a cuidar deles,
     dando todo carinho e atenção necessários para dar uma boa vida para esses amiguinhos.
@@ -29,10 +29,10 @@
     dentro da própria documentação do Framework.
     
 
-# PAINEL-DE-USUARIO
+# PAINEL DE USUARIO
     O painel de usuário não é feito com Bootstrap, apenas HTML e CSS.
     
-# PREVIZUALIZAÇÃO-DA-APLICAÇÃO
+# PREVIZUALIZAÇÃO DA APLICAÇÃO
 
     Esta é a página principal e inicial da aplicação, contendo Login, Registro de Usuário, Galeria
     
