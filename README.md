@@ -67,6 +67,16 @@
  
     A partir disso o ambiente PHP básico estará quase pronto.
     
+    Também é de extrema inportância instalar o Laravel caso queira fazer alterações no projeto.
+    Rode o comando:
+    
+    composer global require laravel/installer
+    
+    e verá a tela de instalação do Laravel.
+    Para mais dúvidas siga a documentação:
+ https://laravel.com/docs/8.x#getting-started-on-windows   
+    
+    
 # PROJETO CLONADO NA SUA MÁQUINA
     Com o projeto clonado na sua máquina, com ele aberto rode o comando>
     
@@ -81,7 +91,13 @@
 
     Sem isso o MySql não irá identificar seu banco de dados dando erro na criação das migrations.
     
+    Com todas esses pré requisitos instalados na máquina e o banco de dados criado rode o comando:
     
+    php artisan serve
+    
+    Com isso sua página estará rodando localmente dentro da sua máquina na porta http://127.0.0.1:8000/
+    que geralmente é aplicada ao XAMPP.
+      
     
     
 # RECOMENDAÇÕES
