@@ -89,7 +89,7 @@
 
 ![Capturar](https://user-images.githubusercontent.com/51803873/176568975-53ab14cf-7424-45df-add1-3fad435ad491.PNG)
 
-    Sem isso o MySql não irá identificar seu banco de dados dando erro na criação das migrations.
+    Sem isso o MySql não irá identificar seu banco de dados dando erro na criação das migrattions.
     
     Com todas esses pré requisitos instalados na máquina e o banco de dados criado rode o comando:
     
