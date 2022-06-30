@@ -6,26 +6,26 @@
     WERIK RODRIGUES DE ANDRADE    
 
 # OBJETIVO-DO-PROJETO
-    Fazer um site web/plataforma para que seja possível lozalizar animais em situaçãoa de abandono,
+    Fazer um site web/plataforma para que seja possível localizar animais em situação de abandono,
     para que pessoas que tenham as condições necessárias possam os adotar e assim ajudar a cuidar deles,
     dando todo carinho e atenção necessários para dar uma boa vida para esses amiguinhos.
 
 # TECNOLOGIAS
-    Para criar o site foi usado PHP em conjunto com os Framworks Láravel e Bootstrap.
+    Para criar o site foi usado PHP em conjunto com os Frameworks Laravel e Bootstrap.
     
     Foi usado o template Anyar como base para desenvolvimento do front da aplicação
  https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
     
     Banco de dados relacional MySql.
     
-    Arquitetura MVC, onde por padrão ja é aplicada no Láravel.
+    Arquitetura MVC, onde por padrão ja é aplicada no Laravel.
 
     A aplicação Web conta com responsividade adaptativa tanto para aparelhos celular quanto Tablet, dentro da parte feito com 
     Bootstrap.
     
-    A decisão de utilização do Láravel se deu pela facilidade que o framwork traz para quem tem pouca experiência de programação
+    A decisão de utilização do Laravel se deu pela facilidade que o Framework traz para quem tem pouca experiência de programação
     permitindo que apenas configurando as rotas, controllers e os models, seja possível fazer uma aplicação completa sem muito
-    entendimento da linguagem em si, pesquisando dentro da própria documentação do framwork.
+    entendimento da linguagem em si, pesquisando dentro da própria documentação do Framework.
     
 
 # PAINEL-DE-USUARIO
@@ -37,7 +37,7 @@
     
 ![image](https://user-images.githubusercontent.com/51803873/176567143-2b0ea174-3ae9-4462-b3c5-422ce6d1a386.png)
    
-    O site foi feito utilizando apenas um HTML, então apenas descendo o scrol é possível chegar no Login.
+    O site foi feito utilizando apenas um HTML, então apenas descendo o scroll é possível chegar no Login.
     
 ![image](https://user-images.githubusercontent.com/51803873/176567267-2635e097-2488-4b98-b896-aab90b63489b.png)
    
